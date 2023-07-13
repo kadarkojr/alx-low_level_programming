@@ -1,13 +1,11 @@
 #include <stdio.h>
-/*
- * main - A program that prints a line with puts function
+/**
+ * main - Entry point
  *
- * description - write a c program that puts out a string of characters
- *
- * Return: (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+        puts("\"Programming is like building a multilingual puzzle");
+        return (0);
 }
