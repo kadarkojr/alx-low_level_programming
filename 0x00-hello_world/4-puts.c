@@ -1,7 +1,10 @@
 #include <stdio.h>
 /*
  * main - A program that prints a line with puts function
- * Return: 0
+ *
+ * description - write a c program that puts out a string of characters
+ *
+ * Return: (0)
  */
 int main(void)
 {
