@@ -13,8 +13,9 @@ int i;
 for (i = 0; i < 10; i++)
 {
 putchar('0' + i);
-putchar(',');
-putchar(' ');
+	if (i != 9)
+		putchar(',');
+		putchat(' ');
 }
 putchar('\n');
 return (0);
