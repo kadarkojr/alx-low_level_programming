@@ -18,15 +18,15 @@ putchar('0' + (i % 10));
 putchar(' ');
 putchar('0' + (j / 10));
 putchar('0' + (j % 10));
-  if (i == 98 && j == 99)
-  {
+    if (i == 98 && j == 99)
+    {
     continue;
-  }
-  else
-  {
+    }
+    else
+    {
     putchar(',');
     putchar(' ');
-  }
+    }
 }
 }
 putchar('\n');
