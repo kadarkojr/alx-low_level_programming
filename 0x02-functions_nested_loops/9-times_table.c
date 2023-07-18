@@ -14,23 +14,23 @@ for (j = 0; j < 10; j++)
 {
 if((i * j) > 9)
 {
-putchar(48 + (i * j) / 10);
-putchar(48 + (i * j) % 10);
+_putchar(48 + (i * j) / 10);
+_putchar(48 + (i * j) % 10);
 }
 else
 {
-putchar(48 + (i * j));
+_putchar(48 + (i * j));
 }
 if(j != 9)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 if((j * i) < 10)
 {
-putchar(' ');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
