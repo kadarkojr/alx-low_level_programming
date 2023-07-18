@@ -20,7 +20,3 @@ a = a;
 putchar(48 + a);
 putchar(48 + a);
 }
-int main()
-{
-    print_last_digit(0);
-}
