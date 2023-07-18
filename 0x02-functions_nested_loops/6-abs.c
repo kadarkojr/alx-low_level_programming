@@ -10,15 +10,14 @@ int _abs(int c)
 
 if (c > 0)
 {
-putchar(48 + c);
+return (c);
 }
 else if (c == 0)
 {
-putchar(0 + '0');
+return (0);
 }
 else
 {
-putchar(48 + c * -1);
+return (-c);
 }
-return (-1);
 }
