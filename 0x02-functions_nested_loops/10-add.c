@@ -4,9 +4,9 @@
 * add - add two numbers
 * Return: the sum of the numbers
 */
-void times_table(void)
+int add(int, int)
 {
 int k;
-int k = a + b;
+k = a + b;
 return (k);
 }
