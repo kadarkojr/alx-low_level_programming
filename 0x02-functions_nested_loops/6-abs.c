@@ -11,12 +11,10 @@ int _abs(int c)
 if (c > 0)
 {
 putchar(48 + c);
-return (1);
 }
 else if (c == 0)
 {
 putchar(0 + '0');
-return (0);
 }
 else
 {
