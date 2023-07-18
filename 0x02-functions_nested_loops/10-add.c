@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 * add - add two numbers
-* @a - add to b
-8 @b - add to a
+* @a: add int to int b
+8 @b: add int to int a
 * Return: the sum of the numbers
 */
 int add(int a, int b)
