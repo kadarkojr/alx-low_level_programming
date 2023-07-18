@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* print_last_digit - return the last digit of a number
-* @c: check character c
-* Return: last value
+* jsck_bauer - print the minutes of the day
+* Return: minutes of the day
 */
 void jack_bauer(void)
 {
@@ -13,11 +12,11 @@ for (i = 0; i < 24; i++)
 {
 for (j = 0; j < 60; j++)
 {
-putchar(48 + (i/10));
-putchar(48 + (i%10));
+putchar(48 + (i / 10));
+putchar(48 + (i % 10));
 putchar(':');
-putchar(48 + (j/10));
-putchar(48 + (j%10));
+putchar(48 + (j / 10));
+putchar(48 + (j % 10));
 putchar('\n');
 }
 }
