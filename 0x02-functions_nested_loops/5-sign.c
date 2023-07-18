@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include "main.h"
+#include "main.h"
 /**
 * print_sign - check if an alphabet is in lowercase
 * @c: check character c
