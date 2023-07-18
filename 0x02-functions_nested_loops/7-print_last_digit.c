@@ -17,6 +17,6 @@ else
 {
 a = a;
 }
-putchar(48 + a);
-putchar(48 + a);
+_putchar(48 + a);
+return (a);
 }
