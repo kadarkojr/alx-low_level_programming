@@ -3,7 +3,7 @@
 /**
 * print_sign - print the sign of a number
 * @c: check character c
-* Print: + if positive, 0 if zero or - if negative
+* Return: + if positive, 0 if zero or - if negative
 */
 int print_sign(int c)
 {
