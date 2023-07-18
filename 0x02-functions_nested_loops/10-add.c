@@ -3,7 +3,7 @@
 /**
 * add - add two numbers
 * @a: add int to int b
-8 @b: add int to int a
+* @b: add int to int a
 * Return: the sum of the numbers
 */
 int add(int a, int b)
