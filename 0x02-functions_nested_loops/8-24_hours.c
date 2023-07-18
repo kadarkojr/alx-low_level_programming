@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* jsck_bauer - print the minutes of the day
+* jack_bauer - print the minutes of the day
 * Return: minutes of the day
 */
 void jack_bauer(void)
