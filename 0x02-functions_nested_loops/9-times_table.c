@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* times table - print the times table
+* times_table - print the times table
 */
 void times_table(void)
 {
 int i;
 int j;
 int k;
-for(i = 0; i < 10; i++)
+for (i = 0; i < 10; i++)
 {
 putchar('0');
 for (j = 1; j <= 9; j++)
