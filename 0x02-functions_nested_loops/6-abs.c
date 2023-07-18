@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include "main.h"
+#include "main.h"
 /**
 * _abs - return the absolute value of a number
 * @c: check character c
