@@ -7,27 +7,22 @@
 * @c: third integer
 * Return: largest number
 */
- 
+
 int largest_number(int a, int b, int c)
 {
-int arr[3];
-int temp;
-int i;
-int j;
-arr[0] = a;
-arr[1] = b;
-arr[2] = c;
-for (i = 0; i < 2; i++)
+int d;
+d = 0;
+if (a >= b && a >= c)
 {
-for (j = i + 1; j < 3; j++)
+d = a;
+}
+if (b >= a && b >= c)
 {
-if (arr[i] > arr[j])
+d = b;
+}
+else
 {
-temp = arr[i];
-arr[i] = arr[j];
-arr[j] = temp;
+d = c;
 }
-}
-}
-return (arr[2]);
+return (d);
 }
