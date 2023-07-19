@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * print_to_98 - print from int n to 98
-* @a: print from int a to 98
+* @n: print from int n to 98
 *
 */
 void print_to_98(int n)
@@ -32,4 +32,5 @@ putchar(' ');
 }
 }
 }
+putchar('\n');
 }
