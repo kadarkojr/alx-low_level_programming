@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * _isdigit - check if c is a digit from 0 to 9
-* @c: check character c
+* @c: check int c
 * Return: 1 if digit and 0 if not
 */
 int _isdigit(int c)
