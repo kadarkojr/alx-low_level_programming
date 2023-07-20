@@ -7,7 +7,7 @@
 * @b: int to be multiplied by int a
 * Return: the product of a and b
 */
-int _mul(int c)
+int _mul(int a, int b)
 {
 return (a *  b);
 }
