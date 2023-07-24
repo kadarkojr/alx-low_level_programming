@@ -1,28 +1,21 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
 * rev_string - reverse a string
 * @s: String to be reversed
 */
 
-void rev_string(char *s)
+void rev_string(char *str)
 {
-char revese[3000];
 int i;
-int j;
-int k;
+int length = strlen(str);
 
-
-i = 0;
-while (s[i] != '\0')
+for (i = 0; i < length / 2; i++)
 {
-i++;
+char tmp = str[i];
+str[i] = str[length - 1 -i];
+str[length - 1 - i] = tmp;
 }
-k = i;
-for (j = k - 1; j >= 0; j--)
-{
-revese[k - 1 - j] = s[j];
-}
-s = revese;
 }
