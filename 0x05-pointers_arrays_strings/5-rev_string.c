@@ -24,5 +24,5 @@ for (j = k - 1; j >= 0; j--)
 {
 revese[k - 1 - j] = s[j];
 }
-s = reverse;
+s = revese;
 }
