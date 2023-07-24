@@ -7,15 +7,15 @@
 * @s: String to be reversed
 */
 
-void rev_string(char *str)
+void rev_string(char *s)
 {
 int i;
-int length = strlen(str);
+int length = strlen(s);
 
 for (i = 0; i < length / 2; i++)
 {
-char tmp = str[i];
-str[i] = str[length - 1 -i];
-str[length - 1 - i] = tmp;
+char tmp = s[i];
+s[i] = str[length - 1 - i];
+s[length - 1 - i] = tmp;
 }
 }
