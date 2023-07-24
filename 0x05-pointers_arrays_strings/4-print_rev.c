@@ -14,7 +14,7 @@ int k;
 
 
 i = 0;
-while(str[i] != '\0')
+while (str[i] != '\0')
 {
 i++;
 }
