@@ -12,11 +12,13 @@ char *_strncpy(char *dest, char *src, int n)
 {
 int i;
 
-strncpy(dest, src, n);
-i = (int)strlen(src);
-if (n >= 0 && n < i)
+for (i = 0; i < n && i != '\0'; i++)
 {
-dest[n] = '\0';
+dest[i] = src[i];
+}
+for (; i < n; i++)
+{
+dest[i] = '\0';
 }
 return (dest);
 }
