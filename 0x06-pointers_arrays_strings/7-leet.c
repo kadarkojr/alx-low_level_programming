@@ -21,6 +21,7 @@ for (j = 0; j < 10; j++)
 if (n[i] == a[j])
 {
 n[i] = b[j];
+break;
 }
 }
 }
