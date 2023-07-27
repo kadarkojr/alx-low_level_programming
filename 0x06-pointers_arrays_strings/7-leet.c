@@ -8,22 +8,21 @@
 **/
 char *leet(char *n)
 {
-int i;
+char a[] = "aeotlAEOTL";
+char b[] = "4307143071";
+int i = 0;
 int j;
-char a[] = "aAeEiIoOuU";
-char b[] = "4433007711";
 
-
-for (i = 0; n[i] != '\0'; i++)
+while (*(n + i) != '\0')
 {
-for (j = 0; j < 10; j++)
+for (j = 0; j <= 9; j++)
 {
-if (n[i] == a[j])
+if (*(n + i) == a[j])
 {
-n[i] = b[j];
-break;
+*(n + i) = b[j];
 }
 }
+i++;
 }
 return (n);
 }
