@@ -15,7 +15,7 @@ if (c == '\0')
 {
 return (NULL);
 }
-while (*s)
+while (s != '\0')
 {
 if (*s == c)
 {
