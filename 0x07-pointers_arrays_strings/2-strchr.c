@@ -5,7 +5,7 @@
 /**
 * _strchr - return a pointer to the first occurence of c
 * in the string, or null if empty.
-* @*s: string
+* @s: string
 * @c: char
 * Return: pointer to remainder of string
 */
