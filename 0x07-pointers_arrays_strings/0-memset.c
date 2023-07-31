@@ -6,7 +6,7 @@
 * _memset - function to fill memory with a constant type)
 * @s: first char
 * @b: second char
-* @n: 
+* @n: integer
 * Return: s
 */
 char *_memset(char *s, char b, unsigned int n)
