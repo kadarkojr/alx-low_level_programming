@@ -11,16 +11,10 @@
 */
 char *_strchr(char *s, char c)
 {
-if (*s == '\0')
-{
-return (s);
-}
-else if (c == '\0')
+if (c == '\0')
 {
 return ('\0');
 }
-else
-{
 while (*s)
 {
 if (*s == c)
@@ -28,7 +22,6 @@ if (*s == c)
 return (s);
 }
 s++;
-}
 }
 return ('\0');
 }
