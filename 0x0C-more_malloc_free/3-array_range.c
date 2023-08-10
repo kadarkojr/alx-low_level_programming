@@ -4,7 +4,7 @@
 /**
 * *array_range - array of integers
 * @min: min range of values
-* @max: max range of values 
+* @max: max range of values
 * Return: pointer to array
 */
 
